@@ -1,1 +1,3 @@
-# DPAN
+# Offical repo for "DPAN: Dynamic Preference-based and Attribute-aware Network for Relevant Recommendations"
+
+The implementation of our proposed method is based on our company-customized distributed Tensorflow framework for better industrial applications. Releasing code related to the framework is not allowed and detailed information about input features are also confidential. So with these information removed, part of source code is extracted and simplified as supplementary materials. The released source code is not runnable but able to illustrate the implementation of model structure.

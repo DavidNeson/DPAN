@@ -1,0 +1,5 @@
+{
+  "model_class": "dpan.DPAN",
+  "batch_size": 1024,
+  "init_op": "xavier"
+}

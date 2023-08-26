@@ -1,0 +1,21 @@
+{
+  "DPAN": {
+    "model_type": "dpan",
+    "modelx": {
+      "model_hyperparameter": {
+        "need_dpan_attention": true
+      }
+    },
+    "optimizer": {
+      "Adagrad": {
+        "learning_rate": 0.01
+      }
+    },
+    "user_column_block": "user_profile_common_columns;user_short_term_columns;user_long_term_columns",
+    "item_column_block": "item_id_columns",
+    "trigger_column_block": "trigger_id_columns",
+    "ctx_column_block": "ctx_columns",
+    "condition_column_block": "condition_columns",
+    "seq_column_block": "user_seq_list:seq_length_columns;"
+  }
+}
